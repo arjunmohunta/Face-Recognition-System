@@ -1,11 +1,12 @@
 The libiraries used are:
-numpy
-face recognition
-cv2
-os
-google.colab.patches from which cv2_imshow is used
-ipywidgets
-IPython.display
-from google.colab output was used
-from google.colab.output eval_js was used 
-from base64  b64decode was 
+import ipywidgets as widgets
+from IPython.display import display, Javascript
+from IPython.display import Image
+from google.colab import output
+from google.colab.output import eval_js
+from base64 import b64decode
+import face_recognition
+import cv2
+import os
+from google.colab.patches import cv2_imshow
+import numpy as np
