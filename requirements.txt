@@ -1,0 +1,11 @@
+The libiraries used are:
+numpy
+face recognition
+cv2
+os
+google.colab.patches from which cv2_imshow is used
+ipywidgets
+IPython.display
+from google.colab output was used
+from google.colab.output eval_js was used 
+from base64  b64decode was 
